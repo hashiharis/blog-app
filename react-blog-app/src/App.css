@@ -1,0 +1,12 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+margin:0 auto;
+padding:0;
+background-color:  #333333;
+color:white;
+width:50%;
+}
+

@@ -1,0 +1,23 @@
+.blog-container{
+    border:1px solid white;
+    border-radius:10px;
+    color:white;
+    width:100%;
+    padding-inline:1em;
+
+}
+.blog-outer{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+.blog-section{
+    margin-top:1em;
+    display:flex;
+    gap:1em;
+}
+.blog-fields{
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+}
