@@ -20,9 +20,6 @@ export const userSlice=createSlice(
         name:"userData",
         initialState,
         reducers:{
-            displayUser:(state)=>{
-                state.userDetails;
-            },
             getCurrentUserId:(state,action)=>{
                 state.currentUserId=action.payload;
             }
@@ -31,5 +28,6 @@ export const userSlice=createSlice(
     }
 )
 
+export const selectAllUsers=(state=>state.user)
 export const {displayUser,getCurrentUserId}= userSlice.actions
 export default userSlice.reducer;
