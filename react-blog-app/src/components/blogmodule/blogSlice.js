@@ -31,7 +31,7 @@ export const blogSlice=createSlice({
         },
         reactionBlog:(state,action)=>{
             const {id,reaction}=action.payload;
-            const blog=state.blogDetails.find((b)=>b.id===id)
+            const blog=state.blogDetails.find((b)=>b.blogId===id)
             if(blog){
                 blog.reactions[reaction]++;
             }
